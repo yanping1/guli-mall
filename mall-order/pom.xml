@@ -13,7 +13,7 @@
         <version>2.2.5.RELEASE</version>
         <relativePath/>
     </parent>
-    <groupId>com.firenay.leave</groupId>
+    <groupId>com.yp</groupId>
     <artifactId>mall-order</artifactId>
     <version>1.0-SNAPSHOT</version>
     <name>mall-order</name>

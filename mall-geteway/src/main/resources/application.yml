@@ -13,26 +13,28 @@ spring:
           uri: https://www.zhihu.com/
           predicates:
             - Query=url,zhihu
-        - id: admin_route #管理端
-          uri: lb://renren-fast
-          predicates:
-            - Path=/api/**
-          filters:
-            - RewritePath=/api/(?<segment>.*), /renren-fast/$\{segment}
-
         - id: coupon_route
           uri: lb://mall-coupon
           predicates:
             - Path=/api/coupon/**
           filters:
             - RewritePath=/api/(?<segment>.*), /$\{segment}
-
+        #产品
         - id: product_route
           uri: lb://mall-product
           predicates:
             - Path=/api/product/**
           filters:
             - RewritePath=/api/(?<segment>.*), /$\{segment}
+        #管理端
+        - id: admin_route
+          uri: lb://renren-fast
+          predicates:
+            - Path=/api/**
+          filters:
+            - RewritePath=/api/(?<segment>.*), /renren-fast/$\{segment}
+
+
     sentinel:
       transport:
         dashboard: localhost:8333
