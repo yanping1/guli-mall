@@ -1,0 +1,20 @@
+
+spring:
+    application:
+        name: mall-gateway
+    cloud:
+        nacos:
+            config:
+                server-addr: ${NACOS_ADDR:127.0.0.1:8848}
+                group: DEFAULT_GROUP
+                file-extension: yaml
+                prefix: mall-gateway #文件名 -- 如果没有配置则默认为 ${spring.appliction.name}
+
+            discovery:
+                server-addr: ${NACOS_ADDR:127.0.0.1:8848}
+                metadata:
+                    cname: 网关
+                    type: app_server
+                    api-docs: /api/rsp/v2/api-docs
+    profiles:
+      active: ${PROFILE_ACTVIE:}

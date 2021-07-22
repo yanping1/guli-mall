@@ -1,0 +1,25 @@
+
+spring:
+    application:
+        name: mall-coupon
+    cloud:
+        nacos:
+            config:
+                server-addr: ${NACOS_ADDR:127.0.0.1:8848}
+                group: DEFAULT_GROUP
+                file-extension: yaml
+                prefix: mall-coupon #文件名 -- 如果没有配置则默认为 ${spring.appliction.name}
+                namespace: 01c6480a-d9e4-422d-9225-2565559b58ec
+                ext-config[0]: #读取nacos中心的小配置文件
+                    dataId: datasource.yml
+                    group: DEFAULT_GROUP
+                    refresh: true
+
+            discovery:
+                server-addr: ${NACOS_ADDR:127.0.0.1:8848}
+                metadata:
+                    cname: 优惠券服务
+                    type: app_server
+                    api-docs: /api/rsp/v2/api-docs
+    profiles:
+      active: ${PROFILE_ACTVIE:}
