@@ -1,12 +1,12 @@
-package com.firenay.mall.ware.service;
+package com.yp.mall.ware.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.firenay.common.to.es.SkuHasStockVo;
-import com.firenay.common.to.mq.OrderTo;
-import com.firenay.common.to.mq.StockLockedTo;
-import com.firenay.common.utils.PageUtils;
-import com.firenay.mall.ware.entity.WareSkuEntity;
-import com.firenay.mall.ware.vo.WareSkuLockVo;
+import com.yp.common.to.es.SkuHasStockVo;
+import com.yp.common.to.mq.OrderTo;
+import com.yp.common.to.mq.StockLockedTo;
+import com.yp.common.utils.PageUtils;
+import com.yp.mall.ware.entity.WareSkuEntity;
+import com.yp.mall.ware.vo.WareSkuLockVo;
 
 import java.util.List;
 import java.util.Map;

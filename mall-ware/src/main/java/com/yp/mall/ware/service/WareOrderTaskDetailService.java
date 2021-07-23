@@ -1,8 +1,8 @@
-package com.firenay.mall.ware.service;
+package com.yp.mall.ware.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.firenay.common.utils.PageUtils;
-import com.firenay.mall.ware.entity.WareOrderTaskDetailEntity;
+import com.yp.common.utils.PageUtils;
+import com.yp.mall.ware.entity.WareOrderTaskDetailEntity;
 
 import java.util.Map;
 

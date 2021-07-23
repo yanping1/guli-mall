@@ -1,4 +1,4 @@
-package com.firenay.mall.ware.controller;
+package com.yp.mall.ware.controller;
 
 import java.util.Arrays;
 import java.util.Map;
@@ -10,10 +10,10 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.firenay.mall.ware.entity.WareOrderTaskEntity;
-import com.firenay.mall.ware.service.WareOrderTaskService;
-import com.firenay.common.utils.PageUtils;
-import com.firenay.common.utils.R;
+import com.yp.mall.ware.entity.WareOrderTaskEntity;
+import com.yp.mall.ware.service.WareOrderTaskService;
+import com.yp.common.utils.PageUtils;
+import com.yp.common.utils.R;
 
 
 

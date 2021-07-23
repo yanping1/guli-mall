@@ -1,4 +1,4 @@
-package com.firenay.mall.ware;
+package com.yp.mall.ware;
 
 import com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor;
 import org.mybatis.spring.annotation.MapperScan;
@@ -20,7 +20,7 @@ import org.springframework.transaction.annotation.EnableTransactionManagement;
 @EnableFeignClients
 @EnableTransactionManagement
 @EnableDiscoveryClient
-@MapperScan("com.firenay.mall.ware.dao")
+@MapperScan("com.yp.mall.ware.dao")
 @SpringBootApplication
 public class MallWareApplication {
 

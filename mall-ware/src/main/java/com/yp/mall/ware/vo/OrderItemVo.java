@@ -1,4 +1,4 @@
-package com.firenay.mall.ware.vo;
+package com.yp.mall.ware.vo;
 
 import lombok.Data;
 

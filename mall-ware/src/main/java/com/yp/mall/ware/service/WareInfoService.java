@@ -1,9 +1,9 @@
-package com.firenay.mall.ware.service;
+package com.yp.mall.ware.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.firenay.common.utils.PageUtils;
-import com.firenay.mall.ware.entity.WareInfoEntity;
-import com.firenay.mall.ware.vo.FareVo;
+import com.yp.common.utils.PageUtils;
+import com.yp.mall.ware.entity.WareInfoEntity;
+import com.yp.mall.ware.vo.FareVo;
 
 import java.util.Map;
 

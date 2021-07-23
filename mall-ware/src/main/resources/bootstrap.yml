@@ -1,20 +1,20 @@
 
 spring:
     application:
-        name: mall-third-party
+        name: mall-ware
     cloud:
         nacos:
             config:
                 server-addr: ${NACOS_ADDR:127.0.0.1:8848}
                 group: DEFAULT_GROUP
                 file-extension: yaml
-                prefix: mall-third-party #文件名 -- 如果没有配置则默认为 ${spring.appliction.name}
+                prefix: mall-ware #文件名 -- 如果没有配置则默认为 ${spring.appliction.name}
 #                namespace: ad9e58f0-7c90-45eb-804d-1f3b5cb7e03e
 
             discovery:
                 server-addr: ${NACOS_ADDR:127.0.0.1:8848}
                 metadata:
-                    cname: 第三方接口集成服务
+                    cname: 库存服务
                     type: app_server
                     api-docs: /api/rsp/v2/api-docs
     profiles:

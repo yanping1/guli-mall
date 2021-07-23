@@ -1,11 +1,11 @@
-package com.firenay.mall.ware.controller;
+package com.yp.mall.ware.controller;
 
-import com.firenay.common.utils.PageUtils;
-import com.firenay.common.utils.R;
-import com.firenay.mall.ware.entity.PurchaseEntity;
-import com.firenay.mall.ware.service.PurchaseService;
-import com.firenay.mall.ware.vo.MergeVo;
-import com.firenay.mall.ware.vo.PurchaseDoneVo;
+import com.yp.common.utils.PageUtils;
+import com.yp.common.utils.R;
+import com.yp.mall.ware.entity.PurchaseEntity;
+import com.yp.mall.ware.service.PurchaseService;
+import com.yp.mall.ware.vo.MergeVo;
+import com.yp.mall.ware.vo.PurchaseDoneVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;

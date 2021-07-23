@@ -1,10 +1,10 @@
-package com.firenay.mall.ware.service;
+package com.yp.mall.ware.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.firenay.common.utils.PageUtils;
-import com.firenay.mall.ware.entity.PurchaseEntity;
-import com.firenay.mall.ware.vo.MergeVo;
-import com.firenay.mall.ware.vo.PurchaseDoneVo;
+import com.yp.common.utils.PageUtils;
+import com.yp.mall.ware.entity.PurchaseEntity;
+import com.yp.mall.ware.vo.MergeVo;
+import com.yp.mall.ware.vo.PurchaseDoneVo;
 
 import java.util.List;
 import java.util.Map;

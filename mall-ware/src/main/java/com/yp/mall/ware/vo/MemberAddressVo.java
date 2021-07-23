@@ -1,4 +1,4 @@
-package com.firenay.mall.ware.vo;
+package com.yp.mall.ware.vo;
 
 import com.baomidou.mybatisplus.annotation.TableId;
 import lombok.Data;

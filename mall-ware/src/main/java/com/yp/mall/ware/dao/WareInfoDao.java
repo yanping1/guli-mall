@@ -1,6 +1,6 @@
-package com.firenay.mall.ware.dao;
+package com.yp.mall.ware.dao;
 
-import com.firenay.mall.ware.entity.WareInfoEntity;
+import com.yp.mall.ware.entity.WareInfoEntity;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
 

@@ -1,9 +1,9 @@
-package com.firenay.mall.ware.controller;
+package com.yp.mall.ware.controller;
 
-import com.firenay.common.utils.PageUtils;
-import com.firenay.common.utils.R;
-import com.firenay.mall.ware.entity.PurchaseDetailEntity;
-import com.firenay.mall.ware.service.PurchaseDetailService;
+import com.yp.common.utils.PageUtils;
+import com.yp.common.utils.R;
+import com.yp.mall.ware.entity.PurchaseDetailEntity;
+import com.yp.mall.ware.service.PurchaseDetailService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;

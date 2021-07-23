@@ -1,10 +1,10 @@
-package com.firenay.mall.ware.controller;
+package com.yp.mall.ware.controller;
 
-import com.firenay.common.utils.PageUtils;
-import com.firenay.common.utils.R;
-import com.firenay.mall.ware.entity.WareInfoEntity;
-import com.firenay.mall.ware.service.WareInfoService;
-import com.firenay.mall.ware.vo.FareVo;
+import com.yp.common.utils.PageUtils;
+import com.yp.common.utils.R;
+import com.yp.mall.ware.entity.WareInfoEntity;
+import com.yp.mall.ware.service.WareInfoService;
+import com.yp.mall.ware.vo.FareVo;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

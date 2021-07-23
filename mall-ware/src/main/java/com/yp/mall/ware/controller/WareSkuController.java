@@ -1,13 +1,13 @@
-package com.firenay.mall.ware.controller;
+package com.yp.mall.ware.controller;
 
-import com.firenay.common.exception.BizCodeEnum;
-import com.firenay.common.exception.NotStockException;
-import com.firenay.common.to.es.SkuHasStockVo;
-import com.firenay.common.utils.PageUtils;
-import com.firenay.common.utils.R;
-import com.firenay.mall.ware.entity.WareSkuEntity;
-import com.firenay.mall.ware.service.WareSkuService;
-import com.firenay.mall.ware.vo.WareSkuLockVo;
+import com.yp.common.exception.BizCodeEnum;
+import com.yp.common.exception.NotStockException;
+import com.yp.common.to.es.SkuHasStockVo;
+import com.yp.common.utils.PageUtils;
+import com.yp.common.utils.R;
+import com.yp.mall.ware.entity.WareSkuEntity;
+import com.yp.mall.ware.service.WareSkuService;
+import com.yp.mall.ware.vo.WareSkuLockVo;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.PathVariable;

@@ -1,16 +1,16 @@
-package com.firenay.mall.ware.service.impl;
+package com.yp.mall.ware.service.impl;
 
 import org.springframework.stereotype.Service;
 import java.util.Map;
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
 import com.baomidou.mybatisplus.core.metadata.IPage;
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.firenay.common.utils.PageUtils;
-import com.firenay.common.utils.Query;
+import com.yp.common.utils.PageUtils;
+import com.yp.common.utils.Query;
 
-import com.firenay.mall.ware.dao.WareOrderTaskDetailDao;
-import com.firenay.mall.ware.entity.WareOrderTaskDetailEntity;
-import com.firenay.mall.ware.service.WareOrderTaskDetailService;
+import com.yp.mall.ware.dao.WareOrderTaskDetailDao;
+import com.yp.mall.ware.entity.WareOrderTaskDetailEntity;
+import com.yp.mall.ware.service.WareOrderTaskDetailService;
 
 
 @Service("wareOrderTaskDetailService")

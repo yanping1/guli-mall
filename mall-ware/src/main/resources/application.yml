@@ -1,12 +1,12 @@
 server:
-  port: 11000
+  port: 8886
 spring:
   application:
     name: mall-ware
   datasource:
     username: root
-    password: mq0000
-    url: jdbc:mysql://10.43.1.52:3306/mall_wms?serverTimezone=Asia/Shanghai
+    password: root123
+    url: jdbc:mysql://localhost:3306/gulimall_wms?serverTimezone=Asia/Shanghai
     driver-class-name: com.mysql.cj.jdbc.Driver
   cloud:
     nacos:
@@ -18,8 +18,11 @@ spring:
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
   rabbitmq:
-    host: 10.43.1.52
-    virtual-host: /
+    host: 192.168.3.13
+    port: 5672
+    username: test
+    password: 123456
+    virtual-host: test
     listener:
       simple:
         # 手动确认接受消息

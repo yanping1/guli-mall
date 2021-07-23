@@ -1,4 +1,4 @@
-package com.firenay.mall.ware;
+package com.yp.mall.ware;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.amqp.core.AmqpAdmin;
