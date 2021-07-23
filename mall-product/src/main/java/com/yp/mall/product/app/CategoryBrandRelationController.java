@@ -1,8 +1,8 @@
 package com.yp.mall.product.app;
 
 import com.baomidou.mybatisplus.core.conditions.query.QueryWrapper;
-import com.firenay.common.utils.PageUtils;
-import com.firenay.common.utils.R;
+import com.yp.common.utils.PageUtils;
+import com.yp.common.utils.R;
 import com.yp.mall.product.entity.BrandEntity;
 import com.yp.mall.product.entity.CategoryBrandRelationEntity;
 import com.yp.mall.product.service.CategoryBrandRelationService;

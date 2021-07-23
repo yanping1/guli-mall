@@ -1,7 +1,7 @@
 package com.yp.mall.product.service;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.firenay.common.utils.PageUtils;
+import com.yp.common.utils.PageUtils;
 import com.yp.mall.product.entity.AttrGroupEntity;
 import com.yp.mall.product.vo.AttrGroupWithAttrsVo;
 import com.yp.mall.product.vo.SpuItemAttrGroup;

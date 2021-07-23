@@ -1,10 +1,10 @@
 package com.yp.mall.product.app;
 
-import com.firenay.common.utils.PageUtils;
-import com.firenay.common.utils.R;
-import com.firenay.common.valid.AddGroup;
-import com.firenay.common.valid.UpdateGroup;
-import com.firenay.common.valid.UpdateStatusGroup;
+import com.yp.common.utils.PageUtils;
+import com.yp.common.utils.R;
+import com.yp.common.valid.AddGroup;
+import com.yp.common.valid.UpdateGroup;
+import com.yp.common.valid.UpdateStatusGroup;
 import com.yp.mall.product.entity.BrandEntity;
 import com.yp.mall.product.service.BrandService;
 import org.springframework.beans.factory.annotation.Autowired;

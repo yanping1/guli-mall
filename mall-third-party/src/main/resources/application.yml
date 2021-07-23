@@ -1,0 +1,31 @@
+server:
+  port: 8884
+  servlet:
+    context-path: /third/party
+spring:
+  application:
+    name: mall-third-party
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    sentinel:
+      transport:
+        dashboard: localhost:8333
+    #ali文件对象
+    alicloud:
+      access-key: LTAI5t8vx8dRibXTpmMbPSzd
+      secret-key: 6D9mLjIOgdUqIpln4OiqCzSNcH5u1U
+      oss:
+        endpoint: oss-cn-beijing.aliyuncs.com #地址
+        bucket: guli-mall-yp
+
+  zipkin:
+    base-url: 10.43.1.52:9411/
+    # 关闭我们自动的服务发现功能
+    discovery-client-enabled: false
+    sender:
+      type: web
+  sleuth:
+    sampler:
+      probability: 1

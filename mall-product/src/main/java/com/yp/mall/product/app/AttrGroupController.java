@@ -1,7 +1,7 @@
 package com.yp.mall.product.app;
 
-import com.firenay.common.utils.PageUtils;
-import com.firenay.common.utils.R;
+import com.yp.common.utils.PageUtils;
+import com.yp.common.utils.R;
 import com.yp.mall.product.entity.AttrEntity;
 import com.yp.mall.product.entity.AttrGroupEntity;
 import com.yp.mall.product.service.AttrAttrgroupRelationService;

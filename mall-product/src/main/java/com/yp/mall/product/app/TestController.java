@@ -1,6 +1,6 @@
 package com.yp.mall.product.app;
 
-import com.firenay.common.utils.R;
+import com.yp.common.utils.R;
 import com.yp.mall.product.feign.CouponFeignService;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;

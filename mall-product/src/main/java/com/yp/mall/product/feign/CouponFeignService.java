@@ -1,8 +1,8 @@
 package com.yp.mall.product.feign;
 
-import com.firenay.common.to.SkuReductionTO;
-import com.firenay.common.to.SpuBoundTO;
-import com.firenay.common.utils.R;
+import com.yp.common.to.SkuReductionTO;
+import com.yp.common.to.SpuBoundTO;
+import com.yp.common.utils.R;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;

@@ -2,12 +2,11 @@ package com.yp.mall.product.entity;
 
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;
-import com.firenay.common.valid.AddGroup;
-import com.firenay.common.valid.ListValue;
-import com.firenay.common.valid.UpdateGroup;
-import com.firenay.common.valid.UpdateStatusGroup;
+import com.yp.common.valid.AddGroup;
+import com.yp.common.valid.ListValue;
+import com.yp.common.valid.UpdateGroup;
+import com.yp.common.valid.UpdateStatusGroup;
 import lombok.Data;
-import org.hibernate.validator.constraints.URL;
 
 import javax.validation.constraints.Min;
 import javax.validation.constraints.NotBlank;

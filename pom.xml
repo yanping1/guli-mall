@@ -11,15 +11,16 @@
 
 
     <modules>
+        <module>mall-common</module>
+        <module>mall-geteway</module>
+        <module>renren-fast</module>
+        <module>renren-generator</module>
         <module>mall-coupon</module>
         <module>mall-member</module>
         <module>mall-order</module>
         <module>mall-product</module>
-        <!--<module>mall-ware</module>-->
-        <module>renren-fast</module>
-        <module>renren-generator</module>
-        <module>mall-common</module>
-        <module>mall-geteway</module>
+        <module>mall-ware</module>
+        <module>mall-third-party</module>
     </modules>
 
 

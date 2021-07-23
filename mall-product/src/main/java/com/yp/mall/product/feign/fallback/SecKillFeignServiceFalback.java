@@ -1,7 +1,7 @@
 package com.yp.mall.product.feign.fallback;
 
-import com.firenay.common.exception.BizCodeEnum;
-import com.firenay.common.utils.R;
+import com.yp.common.exception.BizCodeEnum;
+import com.yp.common.utils.R;
 import com.yp.mall.product.feign.SeckillFeignService;
 import org.springframework.stereotype.Component;
 

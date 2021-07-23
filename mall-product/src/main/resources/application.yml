@@ -12,6 +12,12 @@ spring:
     sentinel:
       transport:
         dashboard: localhost:8333
+    #ali文件对象
+    alicloud:
+      access-key: LTAI5t8vx8dRibXTpmMbPSzd
+      secret-key: 6D9mLjIOgdUqIpln4OiqCzSNcH5u1U
+      oss:
+        endpoint: oss-cn-beijing.aliyuncs.com
   # 指定返回时间的格式化
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss

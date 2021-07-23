@@ -1,7 +1,7 @@
 package com.yp.mall.product.exception;
 
-import com.firenay.common.exception.BizCodeEnum;
-import com.firenay.common.utils.R;
+import com.yp.common.exception.BizCodeEnum;
+import com.yp.common.utils.R;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.ExceptionHandler;
@@ -17,7 +17,7 @@ import java.util.Map;
  * date：2020/6/1 21:19
  */
 @Slf4j
-@RestControllerAdvice(basePackages = "com.firenay.mall.product.controller")
+@RestControllerAdvice(basePackages = "com.yp.mall.product.controller")
 public class MallExceptionControllerAdvice {
 
 

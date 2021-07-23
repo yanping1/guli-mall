@@ -12,8 +12,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.firenay.common.utils.PageUtils;
-import com.firenay.common.utils.R;
+import com.yp.common.utils.PageUtils;
+import com.yp.common.utils.R;
 
 
 
