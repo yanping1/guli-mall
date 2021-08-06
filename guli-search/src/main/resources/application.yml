@@ -1,9 +1,11 @@
-ipAddr: 127.0.0.1
+ipAddr: 192.168.154.129
+server:
+  port: 10002
 spring:
   datasource:
     username: root
     password: root123
-    url: jdbc:mysql://${ipAddr}:3306/gulimall_pms?serverTimezone=Asia/Shanghai
+    url: jdbc:mysql://localhost:3306/gulimall_pms?serverTimezone=Asia/Shanghai
     driver-class-name: com.mysql.cj.jdbc.Driver
   cloud:
     nacos:
@@ -12,12 +14,6 @@ spring:
     sentinel:
       transport:
         dashboard: localhost:8333
-    #ali文件对象
-    alicloud:
-      access-key: LTAI5t8vx8dRibXTpmMbPSzd
-      secret-key: 6D9mLjIOgdUqIpln4OiqCzSNcH5u1U
-      oss:
-        endpoint: oss-cn-beijing.aliyuncs.com
   # 指定返回时间的格式化
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss
@@ -28,7 +24,7 @@ spring:
   session:
     store-type: redis
   redis:
-    host: ${ipAddr}
+    host: 127.0.0.1
 #   设置缓存类型
   cache:
     type: redis
@@ -48,8 +44,6 @@ mybatis-plus:
       # 配置逻辑删除 1代表删除 0代表已删除
       logic-delete-value: 1
       logic-not-delete-value: 0
-server:
-  port: 10001
 logging:
   level:
     com.firenay.mall.product: error
@@ -70,9 +64,9 @@ glmall:
 swagger:
     max-page-size: 10000 #接口分页每页最大数量
     min-page-size: 10 #接口分页每页最小数量
-    base-package: com.firenay.mall.product
-    title: mall-product
+    base-package: com.yp.mall.search
+    title: mall-search
     version: 1.0-SNAPSHOT
-    description: 产品
+    description: 检索
     contact:
         name: admin

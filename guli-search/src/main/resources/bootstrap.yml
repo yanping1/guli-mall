@@ -1,16 +1,15 @@
 
 spring:
     application:
-        name: mall-product
+        name: mall-search
     cloud:
         nacos:
             config:
                 server-addr: ${NACOS_ADDR:127.0.0.1:8848}
                 group: DEFAULT_GROUP
                 file-extension: yaml
-                prefix: mall-product #文件名 -- 如果没有配置则默认为 ${spring.appliction.name}
+                prefix: mall-search #文件名 -- 如果没有配置则默认为 ${spring.appliction.name}
 #                namespace: ad9e58f0-7c90-45eb-804d-1f3b5cb7e03e
-
             discovery:
                 server-addr: ${NACOS_ADDR:127.0.0.1:8848}
                 metadata:

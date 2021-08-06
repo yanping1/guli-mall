@@ -1,4 +1,4 @@
-package com.yp.gulimall.search.config;
+package com.yp.mall.search.config;
 
 import org.apache.http.HttpHost;
 import org.elasticsearch.client.RequestOptions;
@@ -9,8 +9,9 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
- * <p>Title: MallElasticSearchConfig</p>
+ * <p>Title: ElasticSearchConfig</p>
  * Description：导入依赖
+ * https://www.elastic.co/guide/en/elasticsearch/client/java-rest/7.x/java-rest-low-usage-requests.html#java-rest-low-usage-request-options
  * API : https://www.elastic.co/guide/en/elasticsearch/client/java-rest/7.4/java-rest-high-supported-apis.html
  * date：2020/6/8 14:50
  */

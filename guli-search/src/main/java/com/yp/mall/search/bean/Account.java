@@ -1,4 +1,4 @@
-package com.firenayl.mall.search.bean;
+package com.yp.mall.search.bean;
 
 import lombok.Data;
 
